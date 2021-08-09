@@ -9,7 +9,7 @@
   cursor: pointer;
 }
 .dropDownBtn:hover {
-  background-color: rgb(160, 219, 65);
+  background-color: rgba(117, 52, 34, 100);
 }
 
 .dropdown_content {
@@ -31,6 +31,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  padding: 0 1rem;
 }
 
 .show {

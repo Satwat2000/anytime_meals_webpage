@@ -6,6 +6,7 @@ const DropDown: React.FC = () => {
   const dropdownContainerRef = useRef<HTMLDivElement>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
   const [showDrop, setshowDrop] = useState(false)
+  //handler
   const listner = (event: MouseEvent) => {
     if (dropdownRef.current && dropdownRef.current.contains(event.target as Node)) {
       setshowDrop(true)
@@ -16,6 +17,7 @@ const DropDown: React.FC = () => {
       setshowDrop(false)
     }
   }
+  //use handler
   useEffect(() => {
     document.addEventListener('mousedown', listner)
     return () => {
