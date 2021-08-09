@@ -1,0 +1,32 @@
+.active {
+  background: rgba(117, 52, 34, 100);
+}
+
+.link {
+  font-family: Allerta Stencil;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(160, 219, 65);
+}
+
+.navlinkcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand {
+  font-family: 'Allura';
+  color: #ffff;
+  font-size: 2.8rem;
+  text-decoration: none;
+}
+
+.brand:hover {
+  color: white;
+}
