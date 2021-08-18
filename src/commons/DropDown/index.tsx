@@ -3,15 +3,14 @@ import CustomNavLink from '../NavLink'
 import styles from './styles.module.css'
 
 const DropDown: React.FC = () => {
-  const dropdownContainerRef = useRef<HTMLDivElement>(null)
+  const dropdownButtonRef = useRef<HTMLDivElement>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
   const [showDrop, setshowDrop] = useState(false)
   //handler
   const listner = (event: MouseEvent) => {
     if (dropdownRef.current && dropdownRef.current.contains(event.target as Node)) {
       setshowDrop(true)
-    } else if (dropdownContainerRef.current && dropdownContainerRef.current.contains(event.target as Node)) {
-      console.log('I am toggling')
+    } else if (dropdownButtonRef.current && dropdownButtonRef.current.contains(event.target as Node)) {
       setshowDrop((prevState) => !prevState)
     } else {
       setshowDrop(false)
@@ -23,12 +22,12 @@ const DropDown: React.FC = () => {
     return () => {
       document.removeEventListener('mousedown', listner)
     }
-  }, [dropdownRef, dropdownContainerRef])
+  }, [dropdownRef, dropdownButtonRef])
 
   return (
     <>
       <div className={styles.dropdown}>
-        <div ref={dropdownContainerRef} className={styles.dropDownBtn}>
+        <div ref={dropdownButtonRef} className={styles.dropDownBtn}>
           <i className={`fas fa-bars`} />
         </div>
       </div>
