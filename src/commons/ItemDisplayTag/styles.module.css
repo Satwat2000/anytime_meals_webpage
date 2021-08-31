@@ -1,0 +1,62 @@
+.itemWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Left Container */
+.LeftContainer {
+}
+
+.Image {
+  height: 6rem;
+  width: 6rem;
+}
+
+/* common Class */
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Center Container */
+.CenterContainer {
+  display: flex;
+  flex-direction: column;
+  margin: -5px 5px 0 5px;
+}
+
+.itemTitle {
+  font-family: alice;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.itemRating {
+  min-width: 44px;
+}
+
+.itemDescription {
+  max-height: 4rem;
+  overflow: hidden;
+  font-family: Sanchez;
+  font-size: 0.94rem;
+}
+
+/* Right Container */
+.RightContainer {
+}
+
+.itemPrice {
+}
+
+.itemQuantity {
+}
+
+.itemQuantityButton {
+}
+
+.incButton {
+}
+
+.decButton {
+}
