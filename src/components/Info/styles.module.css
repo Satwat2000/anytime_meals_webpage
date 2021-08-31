@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 113px;
+  height: 104px;
+  margin: 0 0 0.5rem 0;
+}
+
+.infoContainer {
+  margin: 1.2rem 0 0 0;
+}
+
+.info {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#icon {
+  width: 25.47px;
+  height: 25px;
+  color: white;
+}
+
+.value {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f7f4ef;
+}
