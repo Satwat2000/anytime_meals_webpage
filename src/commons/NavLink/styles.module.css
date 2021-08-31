@@ -2,14 +2,18 @@
   background: rgba(117, 52, 34, 100);
 }
 
-.link {
-  font-family: Allerta Stencil;
-  color: white;
-  font-size: 0.9rem;
+.navLink {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 29px;
+  color: #f7f4ef;
+  text-decoration: none;
   padding: 0.2rem 1rem;
   border-radius: 10px;
-  text-decoration: none;
 }
+
 .link:hover {
   color: rgb(160, 219, 65);
 }
@@ -21,10 +25,12 @@
 }
 
 .brand {
-  font-family: 'Allura';
   color: #ffff;
-  font-size: 2.8rem;
+  font-size: 2rem;
   text-decoration: none;
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .brand:hover {

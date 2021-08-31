@@ -34,14 +34,14 @@ const DropDown: React.FC = () => {
       <div
         ref={dropdownRef}
         className={showDrop ? `${styles.dropdown_content} ${styles.show}` : styles.dropdown_content}>
-        <CustomNavLink isBrand={false} to='/profile'>
+        <CustomNavLink type='NavLink' to='/profile'>
           Profile
         </CustomNavLink>
-        <CustomNavLink isBrand={false} to='/about'>
+        <CustomNavLink type='NavLink' to='/about'>
           About
         </CustomNavLink>
         <hr className={styles.dropdown_option_seperator} />
-        <CustomNavLink isBrand={false} to='/auth'>
+        <CustomNavLink type='NavLink' to='/auth'>
           Log out
         </CustomNavLink>
       </div>

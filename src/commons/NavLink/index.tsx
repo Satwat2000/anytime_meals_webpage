@@ -3,15 +3,15 @@ import { NavLink, NavLinkProps } from 'react-router-dom'
 import styles from './styles.module.css'
 
 interface Props extends NavLinkProps {
-  isBrand: boolean
+  type: 'Brand' | 'NavLink' | 'Link'
 }
 
-const CustomNavLink: React.FC<Props> = ({ children, isBrand, ...linkProps }) => {
+const CustomNavLink: React.FC<Props> = ({ children, type, ...linkProps }) => {
   return (
     <div className={styles.navlinkcontainer}>
       <NavLink
-        className={isBrand ? styles.brand : styles.link}
-        activeClassName={isBrand ? styles.brand : styles.active}
+        className={type === 'Brand' ? styles.brand : type === 'NavLink' ? styles.navLink : styles.link}
+        activeClassName={type !== 'NavLink' ? styles.brand : styles.active}
         {...linkProps}>
         {children}
       </NavLink>
