@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { FormEvent } from 'react'
 import styles from './styles.module.css'
 
 const ContactUs: React.FC = () => {
+  const _handleSubmit = (event: FormEvent) => {
+    event.preventDefault()
+  }
   return (
     <div>
       <div className={styles.headerContainer}>
         <div className={styles.title}>Contact Us</div>
         <div className={styles.subTitle}>Send us a message</div>
       </div>
-      <form action='submit' method='post' className={styles.form}>
+      <form className={styles.form}>
         <input
           type='text'
           name='userName'
@@ -26,7 +29,7 @@ const ContactUs: React.FC = () => {
           placeholder='Your message'
           className={`${styles.userMessage} ${styles.inputField}`}
         />
-        <input type='submit' className={styles.submitButton} />
+        <input type='submit' className={styles.submitButton} onClick={_handleSubmit} />
       </form>
     </div>
   )
