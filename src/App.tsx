@@ -1,11 +1,16 @@
 import React from 'react'
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import MyRoutes from './routes/route'
+
 const App: React.FC = () => {
   return (
     <>
       <NavBar />
-      <MyRoutes />
+      <div>
+        <MyRoutes />
+      </div>
+      <Footer />
     </>
   )
 }
