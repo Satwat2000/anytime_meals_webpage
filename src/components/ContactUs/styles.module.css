@@ -1,0 +1,64 @@
+.headerContainer {
+  margin: 0 0 1.2rem 0;
+}
+
+.title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #f7f4ef;
+}
+
+.subTitle {
+  font-family: Lateef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(247, 244, 239, 0.5);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: rgba(52, 38, 40, 0.5);
+  background: rgba(247, 244, 239, 0.9);
+  margin: 0.2rem 0;
+  border: 0;
+}
+
+.userInfo {
+  width: 128.68px;
+  height: 28px;
+}
+
+.userMessage {
+  width: 223.35px;
+  height: 100px;
+}
+
+.submitButton {
+  width: 128px;
+  height: 32px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(247, 244, 239, 0.5);
+  background: rgba(120, 132, 2, 0.5);
+  border-radius: 5px;
+  margin: 1.2rem 0 0 0;
+}

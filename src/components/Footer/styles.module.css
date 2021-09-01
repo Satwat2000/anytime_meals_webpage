@@ -1,0 +1,15 @@
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 373px;
+  background: #342628;
+  padding: 1rem 2.5rem;
+}
+
+.footerContainer {
+  /* border: white 1px dashed; */
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}

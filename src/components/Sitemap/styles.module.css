@@ -1,0 +1,33 @@
+.headerContainer {
+  margin: 0 0 1.2rem 0;
+}
+
+.title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #f7f4ef;
+}
+
+.subTitle {
+  font-family: Lateef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgba(247, 244, 239, 0.5);
+}
+
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.link {
+  margin: 0.2rem 0;
+}
