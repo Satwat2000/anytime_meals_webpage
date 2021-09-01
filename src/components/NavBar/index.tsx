@@ -11,7 +11,7 @@ const NavBar: React.FC = () => {
     history.push('/')
   }
 
-  const [isNavOpaque, setisNavOpaque] = useState(true)
+  const [isNavOpaque, setisNavOpaque] = useState(false)
 
   return (
     <div className={styles.navBar}>

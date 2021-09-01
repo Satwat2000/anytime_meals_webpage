@@ -1,12 +1,12 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-import HomePage from './HomePage'
-import CartPage from './CartPage'
-import PurchaseHistoryPage from './PurchaseHistory'
-import ProfilePage from './ProfilePage'
-import AboutPage from './AboutPage'
-import AuthPage from './Auth'
-import ReviewPage from './ReviewPage'
+import HomePage from './components/HomePage'
+import CartPage from './components/CartPage'
+import PurchaseHistoryPage from './components/PurchaseHistory'
+import ProfilePage from './components/ProfilePage'
+import AboutPage from './components/AboutPage'
+import AuthPage from './components/Auth'
+import ReviewPage from './components/ReviewPage'
 
 const MyRoutes: React.FC = () => {
   return (
