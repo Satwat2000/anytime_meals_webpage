@@ -42,6 +42,22 @@ const CartPage: React.FC = () => {
           itemRating={4}
           itemTitle={'Cheese Corn Sandwich'}
         />
+        <ItemDisplayTag
+          imgName='Test'
+          imgPath=''
+          itemDescription={Dec}
+          itemPrice={50}
+          itemRating={4}
+          itemTitle={'Paradice Pasta'}
+        />
+        <ItemDisplayTag
+          imgName='Test'
+          imgPath='images/foodItems/Cheese Corn Sandwitch.jpg'
+          itemDescription={Dec}
+          itemPrice={70}
+          itemRating={4}
+          itemTitle={'Veg Ramen'}
+        />
       </div>
       <hr className={styles.lineBorder} />
       <div className={styles.totalAmountContainer}>
