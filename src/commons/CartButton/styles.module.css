@@ -1,0 +1,75 @@
+.buttonWrapper {
+  display: flex;
+  filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.25));
+}
+
+.verticalWrapper {
+  flex-direction: column;
+  align-self: center;
+  width: 82px;
+  height: 89px;
+}
+
+.horizontalWrapper {
+  flex-direction: row-reverse;
+  align-self: flex-start;
+  width: 151px;
+  height: 30px;
+}
+
+.buttonContainer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1e621d;
+}
+.vertical {
+  width: 83px;
+  height: 30px;
+}
+.horizontal {
+  height: 32px;
+}
+
+.quantityVerticalMargin {
+  margin: 30px 0;
+}
+.roundCornerQuantity {
+  border-radius: 5px;
+}
+.quantity {
+  flex: 1;
+
+  background: #daeaab;
+}
+.button {
+  flex: 1;
+  cursor: pointer;
+  background: rgba(120, 132, 2, 0.43);
+}
+.button:hover {
+  background: rgba(119, 132, 2, 0.658);
+}
+
+.hide {
+  display: none;
+}
+
+.incVertical {
+  border-radius: 5px 5px 0px 0px;
+}
+.incHorizantal {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.decVertical {
+  border-radius: 0px 0px 5px 5px;
+}
+.decHorizantal {
+  border-radius: 5px 0px 0px 5px;
+}

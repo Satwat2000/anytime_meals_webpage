@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  min-width: 20rem;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.fieldInfo {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: rgba(5, 21, 60, 0.6);
+}
+
+.input {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 24px;
+  width: 100%;
+  margin: 0 0 0 5px;
+  padding: 5px 10px;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.ipShort {
+  width: 20%;
+  min-width: 10rem;
+}

@@ -1,0 +1,34 @@
+.useDataWrapper {
+  margin: 23.5px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userData {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 1.69rem;
+  justify-content: space-between;
+}
+
+.addressEditWraper {
+  display: flex;
+  margin: 0 20px;
+}
+
+.iconWrapper {
+  margin: 0 5px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c4c4c4;
+  border-radius: 50px;
+  border-width: 0;
+}
+
+.iconWrapper:hover {
+  background-color: #c4c4c4d3;
+  cursor: pointer;
+}

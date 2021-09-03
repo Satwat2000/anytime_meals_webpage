@@ -1,62 +1,106 @@
-.itemWrapper {
+.wrapper {
+  margin: 1rem 0;
+  padding: 0 20px 0 0;
   display: flex;
-  flex-direction: row;
+  border: 1px solid #498780;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  background: rgba(199, 219, 207, 0.6);
+  border: 1px solid #e46969;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
-/* Left Container */
-.LeftContainer {
+.big {
+  height: 12rem;
+}
+.small {
+  height: 6rem;
 }
 
-.Image {
+.img {
+  border-radius: 10px 0px 0px 10px;
+}
+.imgBig {
+  height: 12rem;
+  width: 12rem;
+}
+.imgSmall {
   height: 6rem;
   width: 6rem;
 }
 
-/* common Class */
-.itemContainer {
+.itemInfo {
   display: flex;
-  flex-direction: row;
+  flex: 1;
+  justify-self: stretch;
+}
+.col {
+  flex-direction: column;
 }
 
-/* Center Container */
-.CenterContainer {
+.about {
   display: flex;
   flex-direction: column;
-  margin: -5px 5px 0 5px;
+  height: 5rem;
+  margin: 0 0 0 16px;
 }
-
-.itemTitle {
-  font-family: alice;
+.itemTitlePriceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.itemTitlePriceText {
+  font-family: Montserrat;
+  font-style: normal;
   font-size: 1.25rem;
+  line-height: 24px;
+}
+.title {
   font-weight: bold;
 }
-
-.itemRating {
-  min-width: 44px;
+.price {
+  font-weight: 600;
 }
 
-.itemDescription {
-  max-height: 4rem;
-  overflow: hidden;
-  font-family: Sanchez;
-  font-size: 0.94rem;
+.desc {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: #4a645b;
+}
+.descSmall {
+  height: 3.3125rem;
+}
+.descBig {
+  height: 3.875rem;
 }
 
-/* Right Container */
-.RightContainer {
+.buttonContainerVertical {
+  margin-left: auto;
+  padding-left: 20px;
+}
+.buttonContainerHorizontal {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto 0 1rem;
 }
 
-.itemPrice {
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  justify-self: flex-end;
 }
-
-.itemQuantity {
-}
-
-.itemQuantityButton {
-}
-
-.incButton {
-}
-
-.decButton {
+.iconContainer:hover {
+  background-color: #e46969;
 }

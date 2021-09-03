@@ -9,9 +9,15 @@ const Footer: React.FC = () => {
     <>
       <div className={styles.footerWrapper}>
         <div className={styles.footerContainer}>
-          <ContactUs />
-          <Sitemap />
-          <ShopInfo />
+          <div className={styles.flexBox}>
+            <ContactUs />
+          </div>
+          <div className={`${styles.flexBox} ${styles.siteMap}`}>
+            <Sitemap />
+          </div>
+          <div className={styles.flexBox}>
+            <ShopInfo />
+          </div>
         </div>
       </div>
     </>

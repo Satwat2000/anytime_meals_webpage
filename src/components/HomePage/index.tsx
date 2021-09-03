@@ -1,5 +1,6 @@
 import React from 'react'
 import ItemDisplayTag from '../../commons/ItemDisplayTag'
+import styles from './styles.module.css'
 // import BasicCard from '../../components/BasicCard'
 const HomePage: React.FC = () => {
   const Dec =
@@ -7,46 +8,48 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <img src='images/header/image1.jpg' alt='' height='522px' width='100%' />
-      <ItemDisplayTag
-        imgName='Test'
-        imgPath='images/foodItems/bk.jpeg'
-        itemDescription={Dec}
-        itemPrice={200}
-        itemRating={4}
-        itemTitle={'Ulla Laa Leee pp'}
-      />
-      <ItemDisplayTag
-        imgName='Test'
-        imgPath='images/foodItems/bk.jpeg'
-        itemDescription={Dec}
-        itemPrice={200}
-        itemRating={4}
-        itemTitle={'Ulla Laa Leee pp'}
-      />
-      <ItemDisplayTag
-        imgName='Test'
-        imgPath='images/foodItems/bk.jpeg'
-        itemDescription={Dec}
-        itemPrice={200}
-        itemRating={4}
-        itemTitle={'Ulla Laa Leee pp'}
-      />
-      <ItemDisplayTag
-        imgName='Test'
-        imgPath='images/foodItems/bk.jpeg'
-        itemDescription={Dec}
-        itemPrice={200}
-        itemRating={4}
-        itemTitle={'Ulla Laa Leee pp'}
-      />
-      <ItemDisplayTag
-        imgName='Test'
-        imgPath='images/foodItems/bk.jpeg'
-        itemDescription={Dec}
-        itemPrice={200}
-        itemRating={4}
-        itemTitle={'Ulla Laa Leee pp'}
-      />
+      <div className={styles.homeWrapper}>
+        <ItemDisplayTag
+          imgName='Test'
+          imgPath=''
+          itemDescription={Dec}
+          itemPrice={25}
+          itemRating={4}
+          itemTitle={'Veg Cheese Sandwich'}
+        />
+        <ItemDisplayTag
+          imgName='Test'
+          imgPath=''
+          itemDescription={Dec}
+          itemPrice={30}
+          itemRating={4}
+          itemTitle={'Cheese Corn Sandwich'}
+        />
+        <ItemDisplayTag
+          imgName='Test'
+          imgPath=''
+          itemDescription={Dec}
+          itemPrice={30}
+          itemRating={4}
+          itemTitle={'Cheese Corn Sandwich'}
+        />
+        <ItemDisplayTag
+          imgName='Test'
+          imgPath=''
+          itemDescription={Dec}
+          itemPrice={50}
+          itemRating={4}
+          itemTitle={'Paradice Pasta'}
+        />
+        <ItemDisplayTag
+          imgName='Test'
+          imgPath='images/foodItems/Cheese Corn Sandwitch.jpg'
+          itemDescription={Dec}
+          itemPrice={70}
+          itemRating={4}
+          itemTitle={'Veg Ramen'}
+        />
+      </div>
     </div>
   )
 }
