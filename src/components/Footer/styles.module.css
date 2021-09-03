@@ -1,3 +1,13 @@
+@media (max-width: 700px) {
+  div.footerContainer {
+    justify-content: center;
+  }
+  .flexBox {
+    min-width: 250px;
+    flex: 1;
+  }
+}
+
 .footerWrapper {
   display: flex;
   justify-content: center;
@@ -8,8 +18,8 @@
 }
 
 .footerContainer {
-  /* border: white 1px dashed; */
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
   justify-content: space-between;
 }

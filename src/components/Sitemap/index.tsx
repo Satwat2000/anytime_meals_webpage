@@ -4,7 +4,7 @@ import CustomNavLink from '../../commons/NavLink'
 
 const Sitemap: React.FC = () => {
   return (
-    <div>
+    <>
       <div className={styles.headerContainer}>
         <div className={styles.title}>Sitemap</div>
         <div className={styles.subTitle}>All our pages</div>
@@ -12,31 +12,31 @@ const Sitemap: React.FC = () => {
       <div className={styles.linkWrapper}>
         <div className={styles.link}>
           <CustomNavLink to='/' linkType='Link'>
-            - Home
+            <span className={styles.dash}>-</span> Home
           </CustomNavLink>
         </div>
         <div className={styles.link}>
           <CustomNavLink to='/about' linkType='Link'>
-            - About Us
+            <span className={styles.dash}>-</span> About Us
           </CustomNavLink>
         </div>
         <div className={styles.link}>
           <CustomNavLink to='/profile' linkType='Link'>
-            - Profile
+            <span className={styles.dash}>-</span> Profile
           </CustomNavLink>
         </div>
         <div className={styles.link}>
           <CustomNavLink to='/purchasehistory' linkType='Link'>
-            - Purchase history
+            <span className={styles.dash}>-</span> Purchase history
           </CustomNavLink>
         </div>
         <div className={styles.link}>
           <CustomNavLink to='/review' linkType='Link'>
-            - Review
+            <span className={styles.dash}>-</span> Review
           </CustomNavLink>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

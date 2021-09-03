@@ -1,0 +1,72 @@
+.profileWrapper {
+  margin: 7.68rem 10% 5rem;
+}
+
+.heading {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 0 0 3.125rem;
+}
+
+.dpContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0.141rem;
+}
+.dpTitle {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 24px;
+}
+
+.dpAvatar {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+  top: 141px;
+  border-radius: 50px;
+}
+
+.lineBorder {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* border: 0px solid rgba(0, 0, 0, 0.1); */
+}
+
+.lineMargin {
+  margin: 10px 0;
+}
+
+.subTitleContainer {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 30px;
+}
+
+.subTitle {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.iconWrapper {
+  margin: 0 1.6rem;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c4c4c4;
+  border-radius: 50px;
+}
+
+.iconWrapper:hover {
+  background-color: #c4c4c4d3;
+  cursor: pointer;
+}

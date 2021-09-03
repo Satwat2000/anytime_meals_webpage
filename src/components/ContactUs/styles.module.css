@@ -6,7 +6,7 @@
   font-family: Lato;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 24px;
   letter-spacing: 0.05em;
   color: #f7f4ef;
@@ -61,4 +61,10 @@
   background: rgba(120, 132, 2, 0.5);
   border-radius: 5px;
   margin: 1.2rem 0 0 0;
+}
+
+@media (max-width: 700px) {
+  .submitButton {
+    margin: 0.5rem 0 1.5rem;
+  }
 }
