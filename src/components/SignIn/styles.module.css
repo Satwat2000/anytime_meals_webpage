@@ -1,0 +1,56 @@
+.signInMain{
+    top: 15%;
+    height:60%;
+    width: 60%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    color: white;
+}
+.signInHeader{
+    margin-bottom: 15%;
+    align-self: center;
+    padding: 3%;
+    border-radius: 25%;
+    background-color: #753422;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    width: 250px;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Sanchez', serif;
+    color: white;
+    margin-top: 15%;
+}
+.login{
+    padding-top: 5%;
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    align-self: center;
+    padding-bottom: 10%;
+    color: #753422;
+}
+input{
+    border-radius: 20%;
+}
+.login input{
+    width: 200px;
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #e3ae9f;
+    border-color: #e3ae9f;
+    color: #572619; 
+    border-radius: 25%;
+}
+.signInlog{
+    align-self: center;
+}

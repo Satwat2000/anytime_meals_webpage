@@ -1,0 +1,50 @@
+.signUpMain{
+    top: 15%;
+    height:60%;
+    width: 60%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center; 
+    color: white;
+}
+.signUpHeader{
+    margin-bottom: 15%;
+    padding: 3%;
+    border-radius: 45%;
+    background-color: #753422;
+    border-width: 30;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Sanchez', serif;
+    color: white;
+    margin-top: 15%;
+}
+.input{
+    border-radius: 20%;
+    color: white;  
+}
+.register {
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.register input{
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 200%;
+    background-color: #e3ae9f;
+    border-color: #e3ae9f;
+    color: #572619;
+}

@@ -1,0 +1,36 @@
+.imm img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: -1; 
+}
+.aboutHeading{
+    top: 24%;
+    left: 23%;
+    height: 77%;
+    width: 53%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+    align-items: center;
+    /* justify-content: center; */
+    background-color: black;
+    border-radius: 5%;
+    opacity: 0.8;
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+    color: white;
+   
+    /* margin-bottom: 10%; */
+}
+.aboutContent{
+    top: 0%;
+    margin-top: 10%;
+    font-size: 25px;
+    padding-left: 2%;
+    font-family: 'Alice', serif;
+    color: white;
+    margin-left: 2%;
+   margin-right: 2%;
+}
