@@ -10,7 +10,7 @@ const NavBar: React.FC = () => {
   const [isHome, setisHome] = useState(true)
 
   const handleRoute = () => {
-    history.push('/')
+    history.push('/home')
   }
 
   useEffect(() => {

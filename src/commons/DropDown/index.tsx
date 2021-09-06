@@ -41,7 +41,7 @@ const DropDown: React.FC = () => {
           About
         </CustomNavLink>
         <hr className={styles.dropdown_option_seperator} />
-        <CustomNavLink linkType='NavLink' to='/auth'>
+        <CustomNavLink linkType='NavLink' to='/'>
           Log out
         </CustomNavLink>
       </div>
